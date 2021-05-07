@@ -6,7 +6,7 @@
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
   </a>
 </p>
-# Configs
+## Configs
 * TOKEN  - Get bot token from @BotFather
 
 * APP_ID        - From my.telegram.org 
@@ -16,5 +16,6 @@
 # creater 
 <p align = "center">
   <a href ="https://t.me/lntechnical">
+Lntechnical
   </a>
 </p>
