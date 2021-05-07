@@ -6,7 +6,7 @@
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
   </a>
 </p>
-## Configs
+# config
 
 * TOKEN  - Get bot token from @BotFather
 
