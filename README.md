@@ -7,7 +7,6 @@
   </a>
 </p>
 # Configs
-
 * TOKEN  - Get bot token from @BotFather
 
 * APP_ID        - From my.telegram.org 
