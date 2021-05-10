@@ -39,7 +39,7 @@ def start(client, message):
 	
 @app.on_message(filters.text & filters.private )
 def echo(client, message):
- update_channel = "lntechnical"
+ update_channel = "OMG_info"
  user_id = message.from_user.id
  if update_channel :
   try:
