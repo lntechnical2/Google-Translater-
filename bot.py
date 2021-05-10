@@ -16,14 +16,18 @@ from google_trans_new import google_translator
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-TOKEN = os.environ.get("TOKEN","")
-API_ID =int(os.environ.get("API_ID",12345))
-API_HASH =os.environ.get("API_HASH","")
+# Get a bot token from botfather
+TOKEN = os.environ.get("TOKEN", "")
+
+# Get from my.telegram.org (or @UseTGXBot)
+APP_ID = int(os.environ.get("APP_ID", ""))
+
+# Get from my.telegram.org (or @UseTGXBot)
+API_HASH = os.environ.get("API_HASH", "")
 app = Client(
         "ggt",
-        bot_token=TOKEN,
-        api_id=API_ID,
-        api_hash=API_HASH,
+        bot_token=TOKEN,api_hash=API_HASH,
+            api_id=APP_ID
     )
     
 @app.on_message(filters.command(['start']))
