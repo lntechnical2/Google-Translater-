@@ -44,3 +44,7 @@ SOFTWARE.
 ```
 
 ## Support 🇮🇳
+<a href="https://t.me/lntechnical">
+   <p> Telegram </p>
+  </a>
+
