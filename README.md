@@ -47,4 +47,7 @@ SOFTWARE.
 <a href="https://t.me/lntechnical">
    <p> Telegram </p>
   </a>
+<a href="https://youtube.com/c/LNtechnical">
+   <p> YouTube </p>
+  </a>
 
