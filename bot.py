@@ -6,8 +6,7 @@ from pyrogram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup
 )
-from google_trans_new import google_translator
-
+from googletrans import Translator
 TOKEN = os.environ.get("TOKEN", "")
 
 APP_ID = int(os.environ.get("APP_ID", 12345))
@@ -268,9 +267,8 @@ async def translate_text(bot,update):
   elif cb_data =="page6":
   	await update.message.edit("Select language 👇",reply_markup =keybord6)
   else :
-  	translator = google_translator()
-  	translated_text = translator.translate(tr_text,lang_tgt=cb_data)
-  	await update.message.edit(translated_text)
-
+       translator = Translator()  
+       translation = translator.translate(tr_text,dest=cb_data) 
+       await update.message.edit(translation.text)
 
 app.run()
