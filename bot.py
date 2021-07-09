@@ -13,9 +13,10 @@ API_ID = int(os.environ.get("API_ID", 12345))
 
 API_HASH = os.environ.get("API_HASH", "")
 app = Client(
-        "ggt",TOKEN,API_ID,API_HASH
+        "Gtt",
+        bot_token=TOKEN,api_hash=API_HASH,
+            api_id=API_ID
     )
-
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
