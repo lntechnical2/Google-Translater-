@@ -1,4 +1,4 @@
-# @mrlokaman ©️ shyan
+# @mrlokaman 
 #lntechnical
 import os
 from pyrogram import Client, filters
